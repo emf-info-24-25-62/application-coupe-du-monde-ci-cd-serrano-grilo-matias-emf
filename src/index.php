@@ -151,7 +151,7 @@
         return "<div class='team'>$name</div>";
     }
 
-    echo '<form method="get">';
+    echo '<form method="get">'; 
     echo '<select name="year">';
     echo '<option value="">-- Toutes les années --</option>';
     foreach (array_keys($winners) as $year) {
