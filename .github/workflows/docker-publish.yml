@@ -30,4 +30,4 @@ jobs:
         with:
           context: .  # Contexte de build (répertoire courant)
           push: true  # Active la publication de l'image
-          tags: ghcr.io/${{ github.repository }}:latest  # Tag de l'image
+          tags: ghcr.io/${{ github.repository }}:latest # Tag de l'image
